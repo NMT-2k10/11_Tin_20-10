@@ -1,0 +1,15 @@
+Ảnh đang dùng từ thư mục anh:
+p01.jpg = 2aOboR5rQS7JzVViiKzRzALvpajgCoGVSJbyiOH2.jpg
+p02.jpg = 2aOboR5rREMzqdQfa8LeHsiEwZlOmizNOOlFwXwm.jpg
+p03.jpg = 2aOboR5rRLVvY78AtFUEqzwv1dj5uF2ktHnwRFxI.jpg
+p04.jpg = 2aOboR5rRu7UEbU829ym8wdZuO4kSciXNRYrnflo.jpg
+p05.jpg = 2aOboR5ryxOA63kGLeycVNbvPsrFzJ1DiumoPKM4.jpg
+p06.jpg = 2aOboR5rzVqBetI6B74jfQOZQYQUXjjCxo0ohZB2.jpg
+p07.jpg = 2aOboR5s1HN7iw2jLgLCKdpPatbDh9MLvm2nVIxM.jpg
+p08.jpg = a12f37cadeda5e8407cb.jpg
+p09.jpg = anh29.jpg
+p10.jpg = c8eefe311721977fce30.jpg
+p11.jpg = ca58debd37adb7f3eebc.jpg
+p12.jpg = 2aOboR5rQS7JzVViiKzRzALvpajgCoGVSJbyiOH2.jpg
+
+Khung thư, ảnh mở đầu và ảnh kết: anh29.jpg

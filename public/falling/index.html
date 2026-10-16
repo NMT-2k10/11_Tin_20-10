@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20/10 · Kỷ niệm lớp 11 Tin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div id="fallback" hidden>Trình duyệt chưa hỗ trợ hiệu ứng 3D. Bạn vẫn có thể xem những khoảnh khắc của lớp mình bên dưới.<div id="gallery"></div></div>
+<header><a href="/">← Vườn hoa</a><div class="controls"><button id="album" aria-label="Mở album ảnh">Album ảnh</button><button id="pause" hidden aria-label="Dừng ảnh chuyển động" aria-pressed="false">Tạm dừng</button><button id="music" aria-label="Bật nhạc" aria-pressed="false">♫</button></div></header>
+<main id="intro"><p id="start-label">Nhấn giữ để bắt đầu</p><button id="start" aria-label="Nhấn giữ một giây để bắt đầu"><svg viewBox="0 0 80 80" aria-hidden="true"><circle class="pulse" cx="40" cy="40" r="34"/><circle cx="40" cy="40" r="29"/><circle id="progress" cx="40" cy="40" r="29"/></svg></button></main>
+<p id="hint" hidden>Kéo để nhìn xung quanh · Cuộn để thu phóng · Chạm ảnh để xem</p>
+<p id="scene-status" class="sr-only" role="status" aria-live="polite"></p>
+<button id="skip" hidden>Xem ảnh ngay →</button>
+<dialog id="viewer" aria-label="Album kỷ niệm lớp 11 Tin"><button id="close" aria-label="Đóng ảnh" autofocus>×</button><img id="large" alt="Kỷ niệm lớp 11 Tin"><nav class="photo-nav" aria-label="Chọn ảnh"><button id="previous" aria-label="Ảnh trước">←</button><span id="photo-count" aria-live="polite"></span><button id="next" aria-label="Ảnh tiếp theo">→</button></nav><div id="thumbnails" aria-label="Tất cả ảnh kỷ niệm"></div></dialog>
+<audio id="audio" src="/music/loop.m4a" loop preload="none"></audio>
+<script type="module" src="scene.js"></script>
+</body></html>

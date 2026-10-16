@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1350" viewBox="0 0 1000 1350"><defs>
+<linearGradient id="paper" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ead9bf"/><stop offset=".48" stop-color="#d8c1a1"/><stop offset="1" stop-color="#b59b7e"/></linearGradient>
+<linearGradient id="tissue" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#fff6ed"/><stop offset=".4" stop-color="#f2ddd4"/><stop offset=".8" stop-color="#ddbcb0"/><stop offset="1" stop-color="#f0d7c6"/></linearGradient>
+<filter id="grain"><feTurbulence baseFrequency=".7" numOctaves="3" seed="22" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".065"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+</defs>
+<g filter="url(#grain)"><path d="M-50 650 L134 554 L327 630 L503 548 L683 624 L873 553 L1054 641 L581 1310 L421 1310Z" fill="url(#paper)"/>
+<path d="M-6 704 L86 595 L235 680 L367 593 L503 682 L656 594 L791 680 L940 593 L1007 707 L554 1261 L447 1261Z" fill="url(#tissue)"/>
+<path d="M86 595 Q201 871 490 1223 L235 680Z" fill="#fff9f0" opacity=".45"/>
+<path d="M367 593 Q373 955 498 1218 L503 682Z" fill="#fff9f4" opacity=".48"/>
+<path d="M656 594 Q663 959 507 1218 L791 680Z" fill="#f8ebe1" opacity=".4"/>
+</g><g fill="none" stroke="#fff9ef" stroke-width="3" opacity=".8"><path d="M-50 650 L134 554 L327 630 L503 548 L683 624 L873 553 L1054 641"/><path d="M-6 704 L86 595 L235 680 L367 593 L503 682 L656 594 L791 680 L940 593 L1007 707"/></g></svg>

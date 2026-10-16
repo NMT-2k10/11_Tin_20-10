@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hoa hồng · Xem mô hình 3D</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 40%,#49313c,#21141d 78%);color:#fae5e9;font:15px system-ui;overflow:hidden}canvas{display:block;position:fixed;inset:0;touch-action:none;cursor:grab}canvas:active{cursor:grabbing}header{position:fixed;left:clamp(24px,5vw,80px);top:36px;pointer-events:none}header small{font-size:11px;letter-spacing:.3em;color:#d7a2b4}h1{font:italic 42px Georgia;margin:12px 0}header p{color:#ccaab6;font-size:13px}footer{position:fixed;bottom:28px;width:100%;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;padding:0 20px}button,a{font:13px system-ui;color:#ffe5ec;border:1px solid #b8798d66;border-radius:30px;background:#422936aa;padding:12px 20px;text-decoration:none;cursor:pointer;backdrop-filter:blur(12px)}button:hover,a:hover{background:#764258}#status{position:fixed;bottom:92px;width:100%;text-align:center;color:#d8b5c2;font-size:12px;pointer-events:none}@media(max-width:600px){h1{font-size:30px}header{top:24px}header p{max-width:220px;line-height:1.6}footer{bottom:20px;gap:6px}button,a{padding:10px 14px}}
+html,body{min-height:100%;height:100%}
+</style></head><body>
+<header><small>VƯỜN HOA · 20.10</small><h1>Một đóa dành riêng em.</h1><p>Kéo để xoay, cuộn để nhìn gần từng cánh hoa.</p></header>
+<p id="status">Đang mở vườn hoa…</p><footer><button id="front">Chính diện</button><button id="side">Góc nghiêng</button><button id="spin" aria-pressed="true">Dừng xoay</button><a href="/">Mở món quà →</a></footer>
+<script type="module" src="/flower-preview.js"></script></body></html>

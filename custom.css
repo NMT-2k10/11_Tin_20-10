@@ -1,0 +1,11 @@
+/* CSS riêng của bạn. Để trống nhằm giữ nguyên diện mạo của web mẫu.
+   Thay đổi màu sắc / kích thước / trang trí ở đây, rồi tải lại trang.
+   Các lớp gốc có thể xem bằng Inspect trong Chrome. */
+
+/* Native fallback remains available if WebGL is unavailable. */
+.flower-3d-ready > .flower-fallback { visibility: hidden; }
+
+/* Photographic bouquet details: each element uses one quadrant of the atlas. */
+.botanical-sprig,.botanical-bow{background-image:url('/botanical/bouquet-atlas.png');background-size:200% 200%;background-repeat:no-repeat;}
+.botanical-sprig{background-position:0 100%;filter:drop-shadow(1px 4px 3px #34492b17)}
+.botanical-bow{background-position:100% 100%;filter:drop-shadow(2px 5px 3px #54223824)}

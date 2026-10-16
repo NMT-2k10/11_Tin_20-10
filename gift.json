@@ -1,0 +1,130 @@
+{
+  "herName": "các bạn nữ lớp 11 Tin",
+  "signature": "Các bạn nam trong lớp",
+  "palette": "pink",
+  "music": {
+    "intro": "/music/intro.m4a",
+    "loop": "/music/loop.m4a"
+  },
+  "cover": {
+    "greeting": "Gửi các bạn nữ,",
+    "line": "một món quà nhỏ từ lớp mình",
+    "button": "Mở quà 20/10"
+  },
+  "garden": {
+    "big": "20 · 10",
+    "line": "Chúc các bạn một ngày 20/10 thật vui!",
+    "photo": "/gift/photos/anh29.jpg",
+    "focus": "50% 50%"
+  },
+  "chapters": [
+    {
+      "sprig": "Một chút hoa, một chút lời chúc",
+      "photos": [
+        {
+          "src": "/gift/photos/p01.jpg",
+          "wish": "Chúc các bạn luôn vui vẻ, tự tin và có thật nhiều kỷ niệm đẹp cùng lớp mình!"
+        },
+        {
+          "src": "/gift/photos/p02.jpg"
+        },
+        {
+          "src": "/gift/photos/p03.jpg"
+        },
+        {
+          "src": "/gift/photos/p04.jpg"
+        }
+      ]
+    },
+    {
+      "sprig": "Chúc các bạn học tốt, làm điều mình thích",
+      "photos": [
+        {
+          "src": "/gift/photos/p05.jpg"
+        },
+        {
+          "src": "/gift/photos/p06.jpg"
+        },
+        {
+          "src": "/gift/photos/p07.jpg"
+        },
+        {
+          "src": "/gift/photos/p08.jpg"
+        }
+      ]
+    },
+    {
+      "sprig": "Cùng lưu lại những kỷ niệm của lớp mình",
+      "photos": [
+        {
+          "src": "/gift/photos/p09.jpg"
+        },
+        {
+          "src": "/gift/photos/p10.jpg"
+        },
+        {
+          "src": "/gift/photos/p11.jpg"
+        },
+        {
+          "src": "/gift/photos/p12.jpg",
+          "wish": "Chúc các bạn học tập thuận lợi và có thời gian cho những điều mình thích!"
+        }
+      ]
+    }
+  ],
+  "bouquet": {
+    "intro": "Lớp mình có một bó hoa tặng các bạn!",
+    "more": "Và cả những khoảnh khắc đáng nhớ này nữa.",
+    "tag": "Mừng 20/10!",
+    "line": "Một bó hoa nhỏ thay lời chúc từ các bạn nam trong lớp."
+  },
+  "letter": {
+    "prompt": "Vài lời từ các bạn nam trong lớp",
+    "greeting": "Các bạn nữ thân mến,",
+    "paragraphs": [
+      "Nhân ngày 20/10, các bạn nam trong lớp chúc các bạn luôn vui vẻ, khỏe mạnh và tự tin với những điều mình muốn làm.",
+      "Cảm ơn các bạn đã góp phần tạo nên những giờ học, giờ ra chơi và hoạt động chung đáng nhớ. Có các bạn, lớp mình vui hơn nhiều!",
+      "Chúc các bạn học tốt, có thêm nhiều trải nghiệm hay và từng bước đạt được mục tiêu của mình. Nhớ dành thời gian nghỉ ngơi và làm những điều mình thích nữa nhé.",
+      "Món quà nhỏ này là lời chúc của tụi mình gửi đến các bạn. Chúc các bạn có một ngày 20/10 thật vui, và cả lớp sẽ còn nhiều kỷ niệm đẹp cùng nhau!"
+    ],
+    "closing": "Chúc mừng 20/10!",
+    "photo": "/gift/photos/anh29.jpg",
+    "stamp": "/gift/photos/anh29.jpg",
+    "postmark": "20.10.2026"
+  },
+  "ending": {
+    "line": "Chúc các bạn luôn vui vẻ, tự tin và có một năm học thật đáng nhớ!",
+    "photo": "/gift/photos/anh29.jpg"
+  },
+  "falling": {
+    "intro": [
+      [
+        "Gửi các bạn nữ",
+        "lớp 11 Tin"
+      ],
+      [
+        "Chúc mừng",
+        "20 / 10"
+      ],
+      [
+        "Luôn vui vẻ",
+        "và tự tin nhé!"
+      ],
+      [
+        "Cùng lưu lại",
+        "những kỷ niệm đẹp"
+      ]
+    ],
+    "wishes": [
+      "Chúc mừng 20/10!",
+      "Các bạn nữ lớp 11 Tin",
+      "Luôn vui vẻ nhé!",
+      "Tự tin là chính mình",
+      "Học tốt, chơi vui",
+      "Mong an chong lon",
+      "Chúc càng bạn càng móc càng lên tay",
+      "Một năm học thật đáng nhớ",
+      "Từ các bạn nam trong lớp"
+    ]
+  }
+}
