@@ -755,7 +755,7 @@
   ],
   "bouquet": {
     "intro": "Lớp mình có một bó hoa tặng các bạn!",
-    "more": "Và cả những khoảnh khắc đáng nhớ này nữa.",
+    "more": "",
     "tag": "Mừng 20/10!",
     "line": "Một bó hoa nhỏ thay lời chúc từ các bạn nam trong lớp."
   },

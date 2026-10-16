@@ -20,6 +20,8 @@ function sync() {
     const flower = make({seed: Number(el.dataset.seed || 0), photo: el.dataset.photo || ''});
     scene.add(flower); slots.set(el, {flower, seed: Number(el.dataset.seed || 0)});
   });
+  // Clear the previous scene once; image-only intro needs no WebGL rendering.
+  if (!slots.size) renderer.clear();
 }
 function resize() {
   width = innerWidth; height = innerHeight;
@@ -35,6 +37,7 @@ function tick(now) {
   frame = requestAnimationFrame(tick);
   if (document.hidden || now - last < 1000 / 30) return;
   last = now;
+  if (!slots.size) return;
   motion.x += (pointer.x - motion.x) * .065; motion.y += (pointer.y - motion.y) * .065;
   const styleCache = new Map();
   function inheritedOpacity(el) {

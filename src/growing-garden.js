@@ -87,17 +87,26 @@
                 width: `${e.headPx}px`,
                 transform: "translate(-50%,-50%)",
               },
-              children: (0, a.jsx)(i.f.div, {
-                "data-flower-3d": "garden", "data-seed": Math.round(e.hx),
-                "data-tilt-x": -12, "data-tilt-y": (e.hx / window.innerWidth - 0.5) * 42,
-                "data-depth": e.z * 4,
-                className: "flower-3d-slot",
-                style: {width: "100%", aspectRatio: "1", position: "relative"},
-                initial: {opacity: e.headOp, scale: 0.85},
-                animate: n ? {scale: 1} : {scale: 0.85},
-                transition: {duration: e.enterDur, ease: o.L.bloom, delay: e.growDelay},
-                children: (0, a.jsx)("img", {src: e.src, alt: "", draggable: false,
-                  className: "flower-fallback", style: {width: "100%", height: "100%", objectFit: "contain"}})
+              children: (0, a.jsx)(i.f.img, {
+                // Separate intro assets so bouquet and letter flowers keep their existing look.
+                src: e.src.replace("/growing-garden/pink/", "/intro-garden/pink/"),
+                alt: "",
+                loading: "eager",
+                decoding: "async",
+                draggable: !1,
+                style: {
+                  // Compensate for the new cutouts' 10% padding on each side.
+                  width: "125%",
+                  maxWidth: "none",
+                  marginLeft: "-12.5%",
+                  height: "auto",
+                  display: "block",
+                  willChange: p ? "transform, opacity" : void 0,
+                  backfaceVisibility: "hidden",
+                },
+                initial: { opacity: e.headOp, scale: 0.85 },
+                animate: n ? { scale: 1 } : { scale: 0.85 },
+                transition: { duration: e.enterDur, ease: o.L.bloom, delay: e.growDelay },
               }),
             }),
           ],
